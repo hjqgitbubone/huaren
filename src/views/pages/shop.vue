@@ -10,7 +10,6 @@
 
               <!-- 作用域插槽啊啊啊 -->
               <template v-slot:son="scope">作用于插槽例子:{{scope.user.lastName}}</template>
-            
           </Child> 
          
   </div>
