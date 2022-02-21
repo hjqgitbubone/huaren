@@ -13,6 +13,9 @@
             
           </Child> 
          <div>这是test分支</div>
+         <div>这是test分支</div>
+         <div>这是test分支</div>
+          
   </div>
   
 </template>
