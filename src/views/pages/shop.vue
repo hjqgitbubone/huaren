@@ -4,15 +4,15 @@
              <!-- 匿名插槽 -->
               <div class="c1">这是插槽</div>
               
-               <!-- 具名插槽啊啊啊 -->
+               <!-- 具名插槽 -->
               <template v-slot:tou> <h3>这是头</h3></template><br>
               <template v-slot:main><div>身体</div></template>
 
-              <!-- 作用域插槽啊啊啊 -->
+              <!-- 作用域插槽 -->
               <template v-slot:son="scope">作用于插槽例子:{{scope.user.lastName}}</template>
             
           </Child> 
-         
+         <div>这是test分支</div>
   </div>
   
 </template>
