@@ -4,7 +4,6 @@ import user from './user'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  namespace:true,
   modules: {
     user
   }

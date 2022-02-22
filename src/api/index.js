@@ -23,7 +23,7 @@ export const getIndexList = () =>{
 }
 //详情数据接口
 export const getInfoList = (params={}) =>{
-    //console.log('1212',params);
+    console.log('info',params);
     return request({
         url:'/api/home/goods/info',
         method: 'get',

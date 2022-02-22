@@ -2,12 +2,17 @@
   <div class="home">
     <header></header>
     <section>
-      <router-view></router-view>
+      <keep-alive>
+       <router-view></router-view>
+      </keep-alive>
+     
     </section>
     <footer>
       <van-tabbar route>
         <van-tabbar-item icon="home-o" to="/index">首页</van-tabbar-item>
-        <van-tabbar-item icon="search" to="/shop">购物车</van-tabbar-item>
+        <van-tabbar-item icon="search" to="/shop">分类</van-tabbar-item>
+        <van-tabbar-item icon="search" to="/shopCar">购物车</van-tabbar-item>
+        <van-tabbar-item icon="search" to="/mine">我的</van-tabbar-item>
       </van-tabbar>
     </footer>
   </div>

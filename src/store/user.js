@@ -1,14 +1,19 @@
-const state = {
-    dataArr:[]
-},
-const mutations = {
 
-},
-const actions = {
-
+const state= {
+    valLogin:{}
+}
+const mutations= {
+    changeFn(state,params){
+        state.valLogin = params
+    }
+}
+const actions= {
+    setUser(context,params){
+        context.commit('changeFn',params)
+    }
 }
 export default {
-    state,
-    mutations,
-    actions
+    namespaced:true,
+    state,mutations,actions
+
 }
